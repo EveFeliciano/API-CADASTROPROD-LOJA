@@ -22,7 +22,7 @@ url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedos
  Retorna todos os brinquedos cadastrados no catálogo.
 
 Retorno:
-
+````
 {
     "brinquedos": [
         {
@@ -83,7 +83,7 @@ Retorno:
         }
     ]
 }
-
+````
 
 Método POST:
 
@@ -91,14 +91,14 @@ url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedobyid
  Retorna um brinquedo cadastrado no catálogo baseado no seu ID.
 
 Body da requisição:
-
+````
 {
     "id": 1
 }
-
+````
 
 Retorno:
-
+````
 {
     "id": 1,
     "nome": "Boneca Mágica Encantada",
@@ -112,12 +112,13 @@ Retorno:
     "marca": "Sonho Infantil",
     "estoque": 266
 }
-
+````
 
 2. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/cadastrar-brinquedo
 Cadastra um novo brinquedo no catálogo e retorna o que foi inserido.
-Body da requisição:
 
+Body da requisição:
+````
 {
     "nome": "Boneca Mágica",
     "categoria": "Bonecas e Bonecos",
@@ -130,9 +131,9 @@ Body da requisição:
     "marca": "Sonho Infantil",
     "estoque": 80
 }
-
+````
 Retorno:
-
+````
 {
     "id": 7,
     "nome": "Boneca Mágica",
@@ -146,23 +147,24 @@ Retorno:
     "marca": "Sonho Infantil",
     "estoque": 80
 }
-
+````
 
 Método PUT:
 
 url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/inserir-brinquedo
 
 Adiciona a quantidade especificada de produtos no estoque do brinquedo indicado pelo ID.
-Body da requisição:
 
+Body da requisição:
+````
 {
     "quantidade": 40,
     "id": 5
 }
-
+````
 
 Retorno:
-
+````
 {
     "id": 5,
     "nome": "Ben 10",
@@ -178,20 +180,21 @@ Retorno:
     "marca": "Turbo Wheels",
     "estoque": 170
 }
-
+````
 
 2. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/remover-brinquedo
 Remove a quantidade especificada de produtos no estoque do brinquedo indicado pelo ID.
-Requisição do body:
 
+Requisição do body:
+````
 {
     "id": 1,
     "quantidade": 2
 }
-
+````
 
 Retorno:
-
+````
 {
     "id": 1,
     "nome": "Boneca Mágica Encantada",
@@ -205,24 +208,25 @@ Retorno:
     "marca": "Sonho Infantil",
     "estoque": 264
 }
-
+````
 
 Método DELETE:
 
 url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/deletar-brinquedo
 
 Deleta o brinquedo antes cadastrado no catálogo baseado no ID.
-Body da requisição:
 
+Body da requisição:
+````
 {
     "id": 3
 }
-
+````
 
 Retorno:
-
+````
 {"mensagem":"Brinquedo deletado com sucesso"}
-
+````
 
 
 
