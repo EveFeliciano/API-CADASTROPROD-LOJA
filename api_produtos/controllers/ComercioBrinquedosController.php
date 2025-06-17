@@ -18,7 +18,7 @@
                     break;
                 }
             }
-
+            
             $final = json_encode($produtos, JSON_UNESCAPED_UNICODE);
             file_put_contents(__DIR__ . '/../catalogo_brinquedos.json', $final);
 

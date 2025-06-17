@@ -20,7 +20,7 @@
             }
             if(!$encontrou){
                 http_response_code(400);
-                echo json_encode(["erro" => "ID não inserido ou produto não existe."]);
+                echo json_encode(["erro" => "ID não inserido ou produto não existe."], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
             }
         }
     }
