@@ -18,7 +18,7 @@ Rotas e Endpoints:
 
 Método GET:
 
-url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedos
+1. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedos
 
  Retorna todos os brinquedos cadastrados no catálogo.
 
@@ -88,7 +88,7 @@ Retorno:
 
 Método POST:
 
-url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedobyid
+1. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedobyid
 
  Retorna um brinquedo cadastrado no catálogo baseado no seu ID.
 
@@ -154,7 +154,7 @@ Retorno:
 
 Método PUT:
 
-url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/inserir-brinquedo
+1. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/inserir-brinquedo
 
 Adiciona a quantidade especificada de produtos no estoque do brinquedo indicado pelo ID.
 
@@ -216,7 +216,7 @@ Retorno:
 
 Método DELETE:
 
-url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/deletar-brinquedo
+1. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/deletar-brinquedo
 
 Deleta o brinquedo antes cadastrado no catálogo baseado no ID.
 
