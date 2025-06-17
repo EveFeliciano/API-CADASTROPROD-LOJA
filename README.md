@@ -19,6 +19,7 @@ Rotas e Endpoints:
 Método GET:
 
 url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedos
+
  Retorna todos os brinquedos cadastrados no catálogo.
 
 Retorno:
@@ -88,6 +89,7 @@ Retorno:
 Método POST:
 
 url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/brinquedobyid
+
  Retorna um brinquedo cadastrado no catálogo baseado no seu ID.
 
 Body da requisição:
@@ -115,6 +117,7 @@ Retorno:
 ````
 
 2. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/cadastrar-brinquedo
+
 Cadastra um novo brinquedo no catálogo e retorna o que foi inserido.
 
 Body da requisição:
@@ -183,6 +186,7 @@ Retorno:
 ````
 
 2. url: http://localhost/API-CADASTROPROD-LOJA/api_produtos/api/remover-brinquedo
+   
 Remove a quantidade especificada de produtos no estoque do brinquedo indicado pelo ID.
 
 Requisição do body:
