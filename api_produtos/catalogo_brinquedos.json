@@ -1,1 +1,92 @@
-{"brinquedos":[{"id":0,"nome":"Carro de Controle Remoto Radical","categoria":"Veículos","preco":129.9,"promocao":{"ativo":true,"precoPromocional":99.9,"descontoPorcentagem":23},"descricao":"Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.","idadeRecomendada":"5+ anos","marca":"Turbo Wheels","estoque":50},{"id":1,"nome":"Boneca Mágica Encantada","categoria":"Bonecas e Bonecos","preco":79.99,"promocao":{"ativo":false},"descricao":"Boneca articulada com roupas removíveis e acessórios, perfeita para criar histórias.","idadeRecomendada":"3+ anos","marca":"Sonho Infantil","estoque":190},{"id":2,"nome":"SUPER Hiper Carro de Controle Remoto Radical","categoria":"Veículos","preco":129.9,"promocao":{"ativo":true,"precoPromocional":99.9,"descontoPorcentagem":23},"descricao":"Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.","idade":"5+ anos","marca":"Turbo Wheels","estoque":50},{"id":3,"nome":"SUPER jtdjhtdhtr Carro de Controle Remoto Radical","categoria":"Veículos","preco":129.9,"promocao":{"ativo":true,"precoPromocional":99.9,"descontoPorcentagem":23},"descricao":"Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.","idade":"5+ anos","marca":"Turbo Wheels","estoque":50},{"id":4,"nome":"SUPER jtd44jhtdhtr Carro de Controle Remoto Radical","categoria":"Veículos","preco":129.9,"promocao":{"ativo":true,"precoPromocional":99.9,"descontoPorcentagem":23},"descricao":"Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.","idade":"5+ anos","marca":"Turbo Wheels","estoque":50}]}
+{
+    "brinquedos": [
+        {
+            "id": 0,
+            "nome": "Carro de Controle Remoto Radical",
+            "categoria": "Veículos",
+            "preco": 129.9,
+            "promocao": {
+                "ativo": true,
+                "precoPromocional": 99.9,
+                "descontoPorcentagem": 23
+            },
+            "descricao": "Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.",
+            "idadeRecomendada": "5+ anos",
+            "marca": "Turbo Wheels",
+            "estoque": 50
+        },
+        {
+            "id": 1,
+            "nome": "Boneca Mágica Encantada",
+            "categoria": "Bonecas e Bonecos",
+            "preco": 79.99,
+            "promocao": {
+                "ativo": false
+            },
+            "descricao": "Boneca articulada com roupas removíveis e acessórios, perfeita para criar histórias.",
+            "idadeRecomendada": "3+ anos",
+            "marca": "Sonho Infantil",
+            "estoque": 190
+        },
+        {
+            "id": 2,
+            "nome": "SUPER Hiper Carro de Controle Remoto Radical",
+            "categoria": "Veículos",
+            "preco": 129.9,
+            "promocao": {
+                "ativo": true,
+                "precoPromocional": 99.9,
+                "descontoPorcentagem": 23
+            },
+            "descricao": "Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.",
+            "idade": "5+ anos",
+            "marca": "Turbo Wheels",
+            "estoque": 50
+        },
+        {
+            "id": 3,
+            "nome": "SUPER jtdjhtdhtr Carro de Controle Remoto Radical",
+            "categoria": "Veículos",
+            "preco": 129.9,
+            "promocao": {
+                "ativo": true,
+                "precoPromocional": 99.9,
+                "descontoPorcentagem": 23
+            },
+            "descricao": "Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.",
+            "idade": "5+ anos",
+            "marca": "Turbo Wheels",
+            "estoque": 50
+        },
+        {
+            "id": 4,
+            "nome": "SUPER jtd44jhtdhtr Carro de Controle Remoto Radical",
+            "categoria": "Veículos",
+            "preco": 129.9,
+            "promocao": {
+                "ativo": true,
+                "precoPromocional": 99.9,
+                "descontoPorcentagem": 23
+            },
+            "descricao": "Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.",
+            "idade": "5+ anos",
+            "marca": "Turbo Wheels",
+            "estoque": 50
+        },
+        {
+            "id": 5,
+            "nome": "Ben 10",
+            "categoria": "Boneco",
+            "preco": 189.9,
+            "promocao": {
+                "ativo": true,
+                "precoPromocional": 99.9,
+                "descontoPorcentagem": 23
+            },
+            "descricao": "Um carro de controle remoto super veloz com luzes LED e bateria de longa duração.",
+            "idade": "5+ anos",
+            "marca": "Turbo Wheels",
+            "estoque": 50
+        }
+    ]
+}
