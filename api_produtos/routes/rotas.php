@@ -22,6 +22,10 @@
             else if($uri == '/api/brinquedos'){
                 $analiseBrinquedoController->GetAllBrinquedos();
             } 
+            else{
+                http_response_code(404);
+                echo json_encode(["erro" => "Rota não encontrada"], JSON_UNESCAPED_UNICODE);
+            }
             break;
         case 'POST':
             if($uri == '/api/brinquedobyid'){
@@ -36,10 +40,14 @@
             else if($uri == '/api/remover-brinquedo'){
                 $comercioBrinquedoController->RemoverBrinquedo();
             }
+            else{
+                http_response_code(404);
+                echo json_encode(["erro" => "Rota não encontrada"], JSON_UNESCAPED_UNICODE);
+            }
             break;
         default:
             http_response_code(404);
-            echo json_encode(["erro" => "Rota não encontrada"], JSON_UNESCAPED_UNICODE);
+            echo json_encode(["erro" => "Método não especificado"], JSON_UNESCAPED_UNICODE);
             break;
     }
 ?>
